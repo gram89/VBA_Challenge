@@ -56,9 +56,13 @@ While there are no disadvantages per-se, one important thing is to ensure the lo
 
 With the refactored code I
 1. Cleaned-up the for loops to improve processing speed
-2. used arrays and declared variables outside the array which helped in better more efficient data storage
+2. Used arrays and declared variables in the array which helped in better more efficient data storage as opposed to resetting the values every time
 
-That said, the intial code is still helpful in understanding the logic and was more easily readable for a newbie. 
+That said, the intial code is still helpful in understanding the logic and was more easily readable.
+
+The inital code helped in
+1. Understanding the logic of conditionals how the loops worked
+2. Incremented the values within nested for loops which helped in getting an understanding of the logic here as well
 
 **These helped in reducing the run-time of code by almost 1.3 s as you can see in the above screenshots**
 
