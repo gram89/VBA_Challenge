@@ -33,4 +33,36 @@ Key points to note from 2017
 **Takeaway from both years: These stocks are volatile and we should wait for stability before investing in any of these stocks. At a layman level this leads us to believe that 2018 was more a correction for these stocks and the future year prices might be a bit more stable compared to 2017 and 2018**
 
 
+###Original Vs Refactored Code performance:
+
+The original code worked well and helped us understand the workings of VBA, however the code had us loop through indivdual values of starting and ending price every time which hindered code performance.
+With the refactored code, we declared different arrays and removed the nested nature of the for loops which considerably increased code performance. The execution time with the re-factored code dropped was 1.3 seconds below the actual code. _The refactored code runtimes are in the screenshots within the analysis section_
+
+**2017 and 2018 run-times before refactoring**  
+![2017 code time](VBA_Old_Code_time_2017.PNG)
+![2018 code time](VBA_Old_Code_time_2018.png)
+
+##Summary
+###Advantages and disadvatanges of refactoring code
+**Advantages**
+1. Improving speed of code execution
+2. Improving resource requirements, thereby helping manage server costs etc.
+3. Ability to think outside the box and reduce complexities  
+
+**Disadvantages**
+While there are no disadvantages per-se, one important thing is to ensure the logic of a code works properly before thinking about reducing complexities and making the code easier to run.
+
+###How do these apply to refactoring the original script
+
+With the refactored code I
+1. Cleaned-up the for loops to improve processing speed
+2. used arrays and declared variables outside the array which helped in better more efficient data storage
+
+That said, the intial code is still helpful in understanding the logic and was more easily readable for a newbie. 
+
+**These helped in reducing the run-time of code by almost 1.3 s as you can see in the above screenshots**
+
+
+
+
 
